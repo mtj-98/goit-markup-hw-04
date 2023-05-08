@@ -246,8 +246,8 @@ body {
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button-hero:hover,
+.button-hero:focus {
   background-color: var(--batton-hover-bg);
 }
 
