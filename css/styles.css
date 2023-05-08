@@ -203,7 +203,9 @@ body {
 
 /* ===============Hero=============== */
 .hero {
-  background: #2e2f42;
+  background-image: url('/images/people-office.jpg');
+  background-size: cover;
+  background-color: rgba(46, 47, 66, 0.7);
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -251,13 +253,12 @@ body {
 
 /* ===============GOALS=============== */
 .goals-section {
-  padding: 120px 0 120px;
+  padding: 120px 0;
   gap: 24px;
 }
 
 .goals-section-list {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 24px;
   flex-basis: calc((100% - 3 * 24px) / 4);
@@ -265,11 +266,27 @@ body {
 }
 
 .goals-title {
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 
 .part-list-section {
   width: 264px;
+}
+
+.goals-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+}
+
+.goals-icon {
+  display: inline-block;
+  margin: 24px 100px;
 }
 /* ============= WHAT ARE WE DOING============ */
 .doing-section {
@@ -329,6 +346,72 @@ body {
   flex-direction: column;
 }
 
+.social-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-button-bg);
+  border-radius: 50%;
+  fill: #ffffff;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--batton-hover-bg);
+}
+
+.social-list-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* ==================CUSTOMERS============== */
+.customers-section {
+  padding: 120px 0 120px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.customers-list-link {
+  padding: 16px 32px;
+  fill: #8e8f99;
+}
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+  fill: var(--batton-hover-bg);
+}
+
+.customers-list-items {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+.customers-list-items:hover,
+.customers-list-items:focus {
+  border-color: var(--batton-hover-bg);
+}
+
+.customers-list-icon {
+  width: 104px;
+  height: 56px;
+}
 /* ===============/MAIN PAGE=============== */
 
 /* ===============FOOTER=============== */
@@ -342,6 +425,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-section {
+  display: flex;
+}
+
+.footer-logo-text {
+  width: 264px;
+  height: 112px;
 }
 /* ===============/FOOTER=============== */
 
@@ -421,6 +513,8 @@ body {
 }
 
 .footer {
+  display: flex;
+
   padding: 100px 0 100px;
   background: #2e2f42;
   height: 312px;
