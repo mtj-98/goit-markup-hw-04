@@ -203,7 +203,7 @@ body {
 
 /* ===============Hero=============== */
 .hero {
-  background-image: url('/images/people-office.jpg');
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/people-office.jpg");
   background-size: cover;
   background-color: rgba(46, 47, 66, 0.7);
   padding-top: 188px;
