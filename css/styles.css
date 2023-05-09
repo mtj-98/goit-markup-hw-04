@@ -391,6 +391,7 @@ body {
   padding: 120px 0 120px;
 }
 
+
 .customers-list {
   display: flex;
   justify-content: center;
@@ -418,15 +419,16 @@ body {
 
 .customers-list-link:hover,
 .customers-list-link:focus {
-  fill: var(--primary-hover-bg);
+  fill: var(--batton-hover-bg);
   border-color: var(--batton-hover-bg);
 }
 
 .customers-list-icon:hover,
 .customers-list-icon:focus {
-  fill: var(--primary-button-bg);
+  fill: var(--batton-hover-bg);
   border-color: var(--batton-hover-bg);
 }
+
 /* ===============/MAIN PAGE=============== */
 
 /* ===============FOOTER=============== */
