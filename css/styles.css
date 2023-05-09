@@ -384,8 +384,6 @@ body {
 
 .social-list-icon {
   fill: var(--primary-button-filter-bg);
-  width: 16px;
-  height: 16px;
 }
 
 /* ==================CUSTOMERS============== */
@@ -416,9 +414,8 @@ body {
 
 .customers-list-icon {
   fill: #8e8f99;
-  width: 104px;
-  height: 56px;
 }
+
 .customers-list-link:hover,
 .customers-list-link:focus {
   fill: var(--primary-hover-bg);
@@ -447,9 +444,11 @@ body {
 
 .footer-section {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-text {
+  margin-right: 120px;
   width: 264px;
   height: 112px;
 }
@@ -584,10 +583,6 @@ body {
   background-color: #31d0aa;
 }
 
-.footer-social-list-icon {
-  width: 24px;
-  height: 24px;
-}
 
 .footer-social-list {
   display: flex;
@@ -596,6 +591,7 @@ body {
   gap: 16px;
 }
 
-.footer-social-media {
-  margin-left: 120px;
+.text-footer-item {
+  font-weight: 500;
+  color: var(--primary-button-color);
 }
