@@ -155,6 +155,8 @@ body {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0 24px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .page-nav {
   display: flex;
@@ -203,9 +205,12 @@ body {
 
 /* ===============Hero=============== */
 .hero {
+  max-width: 1440px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/people-office.jpg");
+    url('../images/people-office.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   background-color: rgba(46, 47, 66, 0.7);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -287,6 +292,8 @@ body {
 
 .goals-icon {
   display: inline-block;
+  width: 64px;
+  height: 64px;
   margin: 24px 100px;
 }
 /* ============= WHAT ARE WE DOING============ */
@@ -500,6 +507,8 @@ body {
   background-color: var(--primary-button-bg);
   color: var(--primary-button-color);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btn-menu {
@@ -561,7 +570,7 @@ body {
 
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
-  background-color: #31D0AA;;
+  background-color: #31d0aa;
 }
 
 .footer-social-list-icon {
