@@ -391,7 +391,6 @@ body {
   padding: 120px 0 120px;
 }
 
-
 .customers-list {
   display: flex;
   justify-content: center;
@@ -402,10 +401,10 @@ body {
 .customers-list-link {
   height: 100%;
   padding: 16px 32px;
-  fill: #8e8f99;
+  color: var(--icom-primary-color);
   width: calc((100% - 120px) / 6);
   display: flex;
-  justify-content: c;
+  justify-content: center;
   align-items: center;
   width: 168px;
   height: 88px;
@@ -413,20 +412,14 @@ body {
   border-radius: 4px;
 }
 
-.customers-list-icon {
-  fill: #8e8f99;
-}
-
 .customers-list-link:hover,
 .customers-list-link:focus {
-  fill: var(--batton-hover-bg);
+  color: var(--batton-hover-bg);
   border-color: var(--batton-hover-bg);
 }
 
-.customers-list-icon:hover,
-.customers-list-icon:focus {
-  fill: var(--batton-hover-bg);
-  border-color: var(--batton-hover-bg);
+.customers-list-icon {
+  fill: currentColor;
 }
 
 /* ===============/MAIN PAGE=============== */
@@ -471,15 +464,15 @@ body {
   min-width: 360px;
 }
 
-.menu-card {
+.menu-card-link {
   display: block;
 }
 
-.menu-card:hover,
-.menu-card:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.menu-card-link:hover,
+.menu-card-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 
 .names-menu-card {
   display: block;
@@ -594,7 +587,6 @@ body {
 .footer-social-list-link:focus {
   background-color: #31d0aa;
 }
-
 
 .footer-social-list {
   display: flex;
